@@ -16,4 +16,5 @@ They don't know where the stone will go, they just know a command came from on h
 
 
 It's use stems from its ability to seamlessly relay effective commands in the form of strings or objects. It can iterate requests at a much easier and simpler pace than any
-other set of command functions could provide. 
+other set of command functions could provide.
+In the case of Pac-man, its use allows us to quickly restart the level by making commands to functions featured in the game.
