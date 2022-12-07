@@ -1,0 +1,19 @@
+Command design pattern was implemented by instituting a function that would count which pellets were eaten before which other ones
+It would order these pellets into an array that they can be pulled out of. Each time pac-man eats a pellet, its designation will be squirrelled away into this array.
+
+Next we would develop a spawn function that's similar to our regular spawning function. This one would, upon being given a request by the comand pattern, seek out
+the pellet array and use it to respawn the last 7 pellets by pulling their order out of the array.
+
+This would occur in a for loop. The designated pellets would then be reactivated at their locations in the game.
+
+Now, for the command design pattern, we implement simple-ish series of classes and functions that will export a request to any given part of our code by whatever means it must
+This pattern will take any request provided to it and act as deliverer of the message.
+This message will be carried to whatever function it needs to be heard by and soon implemented by said function to accomodate the request.
+
+
+The pattern works by loading command requests into an object without understanding as to what the request is. It's akin to men loading a catapult with ammunition.
+They don't know where the stone will go, they just know a command came from on high.
+
+
+It's use stems from its ability to seamlessly relay effective commands in the form of strings or objects. It can iterate requests at a much easier and simpler pace than any
+other set of command functions could provide. 
